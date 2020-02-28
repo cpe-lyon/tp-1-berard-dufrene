@@ -61,7 +61,7 @@ DUFRENE Mélic
 	11. 	echo 'Hello Toto !' > toto
 		ln toto titi
 		echo 'Salut' >> toto *( On remarque que les modifications sont aussi faites dans titi)*
-toto et titi pointent sur les mêmes données. Si l'on supprime toto titi reste valide et inversement
+	toto et titi pointent sur les mêmes données. Si l'on supprime toto titi reste valide et inversement
 	12.  	ln -s titi tutu
 	 Ici le lien est symbolique donc tutu pointe vers le fichier titi. La suppression de titi rend invalide le fichier tutu. Les modifications sont vues quelque soit le nom de fichier que l'on utilise
 	13. Pour afficher le contenu d'un fichier, on fait :
